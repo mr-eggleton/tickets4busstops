@@ -1,0 +1,3 @@
+[submodule "Ticketr-API-SDK"]
+	path = Ticketr-API-SDK
+	url = git@github.com:tomfairey/Ticketr-API-SDK.git
