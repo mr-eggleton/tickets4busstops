@@ -19,7 +19,9 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     '~plugins/filters.js',
-    //'~plugins/geo.js',
+    '~plugins/geo.client.js',
+    '~plugins/geo.server.js',
+    '~plugins/geohash.js',
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
